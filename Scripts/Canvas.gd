@@ -7,8 +7,6 @@ var location := Vector2.ZERO
 var size := Vector2(64, 64)
 var fill_color := Color(0, 0, 0, 0)
 var frame := 0 setget frame_changed
-var frame_button : Button
-var frame_texture_rect : TextureRect
 
 var current_pixel := Vector2.ZERO # pretty much same as mouse_pos, but can be accessed externally
 var previous_mouse_pos := Vector2.ZERO
@@ -55,15 +53,13 @@ func _ready() -> void:
 			# Store [Image, ImageTexture, Layer Name, Visibity boolean, Opacity]
 			layers.append([sprite, tex, true, 1])
 
-		frame_button = load("res://Prefabs/FrameButton.tscn").instance()
+		var frame_button = load("res://Prefabs/FrameButton.tscn").instance()
 		frame_button.frame = frame
 		frame_button.layer = i
 		frame_button.pressed = true
 		#frame_button.get_node("FrameID").text = str(frame + 1)
 		#frame_button.get_node("FrameID").add_color_override("font_color", Color("#3c5d75"))
 		Global.layers[i][1].add_child(frame_button)
-		frame_texture_rect = Global.find_node_by_name(frame_button, "FrameTexture")
-		frame_texture_rect.texture = layers[0][1] # ImageTexture current layer index
 
 	# Only handle camera zoom settings & offset on the first frame
 	if Global.canvases[0] == self:
@@ -395,24 +391,26 @@ func update_texture(layer_index : int, update_frame_tex := true) -> void:
 #	var layer_container := get_layer_container(layer_index)
 #	if layer_container:
 #		layer_container.get_child(1).get_child(0).texture = layers[layer_index][1]
-
-	if update_frame_tex:
-		# This code is used to update the texture in the animation timeline frame button
-		# but blend_rect causes major performance issues on large images
-		var whole_image := Image.new()
-		whole_image.create(size.x, size.y, false, Image.FORMAT_RGBA8)
-		for layer in layers:
-			whole_image.blend_rect(layer[0], Rect2(position, size), Vector2.ZERO)
-			layer[0].lock()
-		var whole_image_texture := ImageTexture.new()
-		whole_image_texture.create_from_image(whole_image, 0)
-		frame_texture_rect.texture = whole_image_texture
+	var frame_texture_rect : TextureRect
+	frame_texture_rect = Global.find_node_by_name(Global.layers[layer_index][1].get_child(frame),"FrameTexture")
+	frame_texture_rect.texture = layers[layer_index][1]
+#	if update_frame_tex:
+#		# This code is used to update the texture in the animation timeline frame button
+#		# but blend_rect causes major performance issues on large images
+#		var whole_image := Image.new()
+#		whole_image.create(size.x, size.y, false, Image.FORMAT_RGBA8)
+#		for layer in layers:
+#			whole_image.blend_rect(layer[0], Rect2(position, size), Vector2.ZERO)
+#			layer[0].lock()
+#		var whole_image_texture := ImageTexture.new()
+#		whole_image_texture.create_from_image(whole_image, 0)
+#		frame_texture_rect.texture = whole_image_texture
 
 func frame_changed(value : int) -> void:
 	frame = value
-	if frame_button:
-		frame_button.get_node("FrameButton").frame = frame
-		frame_button.get_node("FrameID").text = str(frame + 1)
+#	if frame_button:
+#		frame_button.get_node("FrameButton").frame = frame
+#		frame_button.get_node("FrameID").text = str(frame + 1)
 
 func get_layer_container(layer_index : int) -> LayerContainer:
 	for container in Global.vbox_layer_container.get_children():
