@@ -514,7 +514,7 @@ func _draw() -> void:
 
 func generate_layer_panels() -> void:
 	return
-	for child in Global.layer_and_frame_container.get_children():
+	for child in Global.layers_container.get_children():
 		if child is LayerContainer:
 			child.queue_free()
 
