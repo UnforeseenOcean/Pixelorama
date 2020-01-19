@@ -50,8 +50,8 @@ func _ready() -> void:
 			var tex := ImageTexture.new()
 			tex.create_from_image(sprite, 0)
 
-			# Store [Image, ImageTexture, Layer Name, Visibity boolean, Opacity]
-			layers.append([sprite, tex, true, 1])
+			# Store [Image, ImageTexture, Layer Name, Opacity]
+			layers.append([sprite, tex, 1])
 
 		var frame_button = load("res://Prefabs/FrameButton.tscn").instance()
 		frame_button.frame = frame
@@ -59,7 +59,7 @@ func _ready() -> void:
 		frame_button.pressed = true
 		#frame_button.get_node("FrameID").text = str(frame + 1)
 		#frame_button.get_node("FrameID").add_color_override("font_color", Color("#3c5d75"))
-		Global.layers[i][1].add_child(frame_button)
+		Global.layers[i][2].add_child(frame_button)
 
 	# Only handle camera zoom settings & offset on the first frame
 	if Global.canvases[0] == self:
@@ -392,7 +392,7 @@ func update_texture(layer_index : int, update_frame_tex := true) -> void:
 #	if layer_container:
 #		layer_container.get_child(1).get_child(0).texture = layers[layer_index][1]
 	var frame_texture_rect : TextureRect
-	frame_texture_rect = Global.find_node_by_name(Global.layers[layer_index][1].get_child(frame),"FrameTexture")
+	frame_texture_rect = Global.find_node_by_name(Global.layers[layer_index][2].get_child(frame),"FrameTexture")
 	frame_texture_rect.texture = layers[layer_index][1]
 #	if update_frame_tex:
 #		# This code is used to update the texture in the animation timeline frame button
@@ -448,20 +448,20 @@ func _draw() -> void:
 					draw_texture(layer[1], location, color)
 
 	# Draw current frame layers
-	for layer in layers:
-		var modulate_color := Color(1, 1, 1, layer[3])
-		if layer[3]: # if it's visible
-			draw_texture(layer[1], location, modulate_color)
+	for i in range(layers.size()):
+		var modulate_color := Color(1, 1, 1, layers[i][2])
+		if Global.layers[i][1]: # if it's visible
+			draw_texture(layers[i][1], location, modulate_color)
 
 			if Global.tile_mode:
-				draw_texture(layer[1], Vector2(location.x, location.y + size.y), modulate_color) #Down
-				draw_texture(layer[1], Vector2(location.x - size.x, location.y + size.y), modulate_color) #Down Left
-				draw_texture(layer[1], Vector2(location.x - size.x, location.y), modulate_color) #Left
-				draw_texture(layer[1], location - size, modulate_color) #Up left
-				draw_texture(layer[1], Vector2(location.x, location.y - size.y), modulate_color) #Up
-				draw_texture(layer[1], Vector2(location.x + size.x, location.y - size.y), modulate_color) #Up right
-				draw_texture(layer[1], Vector2(location.x + size.x, location.y), modulate_color) #Right
-				draw_texture(layer[1], location + size, modulate_color) #Down right
+				draw_texture(layers[i][1], Vector2(location.x, location.y + size.y), modulate_color) #Down
+				draw_texture(layers[i][1], Vector2(location.x - size.x, location.y + size.y), modulate_color) #Down Left
+				draw_texture(layers[i][1], Vector2(location.x - size.x, location.y), modulate_color) #Left
+				draw_texture(layers[i][1], location - size, modulate_color) #Up left
+				draw_texture(layers[i][1], Vector2(location.x, location.y - size.y), modulate_color) #Up
+				draw_texture(layers[i][1], Vector2(location.x + size.x, location.y - size.y), modulate_color) #Up right
+				draw_texture(layers[i][1], Vector2(location.x + size.x, location.y), modulate_color) #Right
+				draw_texture(layers[i][1], location + size, modulate_color) #Down right
 
 	# Idea taken from flurick (on GitHub)
 	if Global.draw_grid:
