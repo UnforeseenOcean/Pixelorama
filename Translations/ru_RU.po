@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2020-01-22 18:51\n"
+"PO-Revision-Date: 2020-01-22 19:05\n"
 
 msgid "OK"
 msgstr "OK"
@@ -366,13 +366,13 @@ msgstr "Ластик\n\n"
 
 msgid "BUCKET_HT"
 msgstr "Заливка\n\n"
-"B для ЛКМ\n"
-"Alt + B для ПКМ"
+"B для левой кнопки мыши\n"
+"Alt + B для правой кнопки мыши"
 
 msgid "LD_HT"
-msgstr "Высветление/Затемнение\n\n"
-"U для ЛКМ\n"
-"Alt + U ПКМ"
+msgstr "Осветление/Затемнение\n\n"
+"U для левой кнопки мыши\n"
+"Alt + U для правой кнопки мыши"
 
 msgid "LEFTCOLOR_HT"
 msgstr "Выбор цвета для левого инструмента"
@@ -381,11 +381,11 @@ msgid "RIGHTCOLOR_HT"
 msgstr "Выбор цвета для правого инструмента"
 
 msgid "COLORSWITCH_HT"
-msgstr "Поменять цвета местами\n"
+msgstr "Поменять левый и правый цвета местами\n"
 "(X)"
 
 msgid "COLORDEFAULTS_HT"
-msgstr "Сбросить цвет по умолчанию (слева черный, справа белый)"
+msgstr "Сбросить цвета по умолчанию (слева черный, справа белый)"
 
 msgid "Raw Mode"
 msgstr "RGB от 0.0 до 1.0 (Raw Mode)"
@@ -406,7 +406,7 @@ msgid "RIGHT_INDIC_HT"
 msgstr "Отображать цвет кисти для ПКМ во время рисования"
 
 msgid "Show tool icon"
-msgstr "Показать значок инструмента"
+msgstr "Показывать значок инструмента"
 
 msgid "Right pixel indicator"
 msgstr "Цвет для ПКМ"
@@ -427,13 +427,13 @@ msgid "Brush: Filled Circle"
 msgstr ""
 
 msgid "Custom brush"
-msgstr "Текущая кисть"
+msgstr "Своя кисть"
 
 msgid "Brush size:"
 msgstr "Размер кисти:"
 
 msgid "Brush color from"
-msgstr "Цвет кисти"
+msgstr "Цвет кисти из"
 
 msgid "COLORFROM_HT"
 msgstr "0: Собственный цвет кисти, 100: Выбранный цвет"
@@ -445,10 +445,10 @@ msgid "Area of the same color"
 msgstr "Область того же цвета"
 
 msgid "All pixels of the same color"
-msgstr "Все точки такого же цвета"
+msgstr "Все пиксели такого же цвета"
 
 msgid "Lighten"
-msgstr "Высветлить"
+msgstr "Осветлить"
 
 msgid "Darken"
 msgstr "Затемнить"
@@ -457,7 +457,7 @@ msgid "Amount:"
 msgstr "Кол-во:"
 
 msgid "LDAMOUNT_HT"
-msgstr "Интенсивность Высветления/Затемнения"
+msgstr "Интенсивность осветления/затемнения"
 
 msgid "Pick for:"
 msgstr ""
@@ -469,16 +469,16 @@ msgid "Right Color"
 msgstr ""
 
 msgid "Mirroring"
-msgstr "Отразить зеркально"
+msgstr "Зеркало"
 
 msgid "Horizontal"
 msgstr "Горизонально"
 
 msgid "HORIZMIRROR_HT"
-msgstr "Режим рисования горизонтального зеркалирования"
+msgstr "Режим рисования с горизонтальным зеркалированием"
 
 msgid "VERTMIRROR_HT"
-msgstr "Режим рисования вертикального зеркалирования"
+msgstr "Режим рисования с вертикальным зеркалированием"
 
 msgid "Vertical"
 msgstr "Вертикально"
@@ -514,8 +514,8 @@ msgstr "Перейти на последний кадр\n"
 "(Ctrl+End)"
 
 msgid "FPS_HT"
-msgstr "Число кадров в секунду для просмотра анимации?\n"
-"Большее число кадров в секунду ускорит анмацию."
+msgstr "Сколько кадров в секунду для просмотра анимации?\n"
+"Большее число кадров в секунду ускорит анимацию."
 
 msgid "No loop"
 msgstr "Не зацикливать"
@@ -524,7 +524,7 @@ msgid "Cycle loop"
 msgstr "Зациклить"
 
 msgid "Ping-pong loop"
-msgstr "Пинг-Понг"
+msgstr "Туда-сюда"
 
 msgid "Onion Skinning:"
 msgstr "Шлейф смежных кадров:"
@@ -545,7 +545,7 @@ msgid "Remove Frame"
 msgstr "Удалить кадр"
 
 msgid "Clone Frame"
-msgstr "Клонировать кадр"
+msgstr "Дублировать кадр"
 
 msgid "Move Left"
 msgstr "Сместить влево"
@@ -581,7 +581,7 @@ msgid "Opacity:"
 msgstr ""
 
 msgid "LAYERVISIBILITY_HT"
-msgstr "Переключить видимость слоев"
+msgstr "Переключить видимость слоя"
 
 msgid "Palette"
 msgstr ""
@@ -659,10 +659,10 @@ msgid "Redo: Change Frame Order"
 msgstr "Повторить: Смена последовательности кадров"
 
 msgid "Undo: Delete Custom Brush"
-msgstr "Отменить: Удаление текущей кисти"
+msgstr "Отменить: Удаление своей кисти"
 
 msgid "Redo: Delete Custom Brush"
-msgstr "Повторить: Удаление текущей кисти"
+msgstr "Повторить: Удаление своей кисти"
 
 msgid "Move Guide"
 msgstr "Сдвинуть направляющие"
