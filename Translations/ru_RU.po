@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2020-01-22 18:39\n"
+"PO-Revision-Date: 2020-01-22 18:51\n"
 
 msgid "OK"
 msgstr "OK"
@@ -32,7 +32,7 @@ msgid "Width:"
 msgstr "Ширина:"
 
 msgid "Height:"
-msgstr "Высота"
+msgstr "Высота:"
 
 msgid "File"
 msgstr "Файл"
@@ -74,7 +74,7 @@ msgid "Export PNG..."
 msgstr "Экспорт PNG..."
 
 msgid "Export PNG as..."
-msgstr "Экспортировать PNG как..."
+msgstr "Экспорт PNG как..."
 
 msgid "Quit"
 msgstr "Выйти"
@@ -86,10 +86,10 @@ msgid "Redo"
 msgstr "Повторить"
 
 msgid "Scale Image"
-msgstr "Увеличить изображение"
+msgstr "Изменить размер изображения"
 
 msgid "Crop Image"
-msgstr "Обрезать выделенное"
+msgstr "Обрезать изображение"
 
 msgid "Clear Selection"
 msgstr "Снять выделение"
@@ -98,19 +98,19 @@ msgid "Flip Horizontal"
 msgstr "Отразить по горизонтали"
 
 msgid "Flip Vertical"
-msgstr "Отразить по вертикале"
+msgstr "Отразить по вертикали"
 
 msgid "Preferences"
 msgstr "Настройки"
 
 msgid "Tile Mode"
-msgstr "Замостить плиткой"
+msgstr "Бесшовный режим"
 
 msgid "Show Grid"
 msgstr "Показывать сетку"
 
 msgid "Show Rulers"
-msgstr "Показывать линейку"
+msgstr "Показывать линейки"
 
 msgid "Show Guides"
 msgstr "Показывать направляющие"
@@ -125,19 +125,19 @@ msgid "Open File(s)"
 msgstr "Открыть файл(ы)"
 
 msgid "IMPORT_FILE_LABEL"
-msgstr "Добавить как новый кадр"
+msgstr "Импортировать как новый кадр"
 
 msgid "IMPORT_SPRITESHEET"
 msgstr ""
 
 msgid "Save Sprite as .pxo"
-msgstr "Сохранить Sprite как .pxo"
+msgstr "Сохранить спрайт как .pxo"
 
 msgid "Export Sprite as .png"
 msgstr "Экспортировать спрайт как .png"
 
 msgid "Export Sprite"
-msgstr "Экспортировать Sprite"
+msgstr "Экспортировать спрайт"
 
 msgid "File Exists, Overwrite?"
 msgstr "Файл существует, перезаписать?"
@@ -164,7 +164,7 @@ msgid "Path:"
 msgstr "Путь:"
 
 msgid "Directories & Files:"
-msgstr "Словари и файлы:"
+msgstr "Папки и файлы:"
 
 msgid "Create Folder"
 msgstr "Создать папку"
@@ -185,7 +185,7 @@ msgid "Cubic"
 msgstr "Кубический"
 
 msgid "Trilinear"
-msgstr "Трехлинейный"
+msgstr "Трилинейный"
 
 msgid "Language"
 msgstr "Язык"
@@ -263,7 +263,7 @@ msgid "Website"
 msgstr "Сайт"
 
 msgid "Donate"
-msgstr "Поддержать"
+msgstr "Пожертвовать"
 
 msgid "Developers"
 msgstr "Разработчики"
@@ -290,31 +290,31 @@ msgid "German"
 msgstr "Немецкий"
 
 msgid "Polish"
-msgstr ""
+msgstr "Польский"
 
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Бразильский португальский"
 
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Китайский (Традиционный)"
 
 msgid "Italian"
-msgstr ""
+msgstr "Итальянский"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Испанский"
 
 msgid "Development Team"
-msgstr ""
+msgstr "Команда разработчиков"
 
 msgid "Lead Programmer"
-msgstr ""
+msgstr "Главный программист"
 
 msgid "UI Designer"
-msgstr ""
+msgstr "Дизайнер интерфейса"
 
 msgid "GitHub Contributors"
 msgstr ""
@@ -338,31 +338,31 @@ msgid "Utility Tools"
 msgstr "Сервисные инструменты"
 
 msgid "RECTSELECT_HT"
-msgstr "Прямоугольное выдиление\n\n"
-"R для ЛКМ\n"
-"Alt + R для ПКМ\n\n"
-"Shift для перемещения контента"
+msgstr "Прямоугольное выделение\n\n"
+"R для левой кнопки мыши\n"
+"Alt + R для правой кнопки мыши\n\n"
+"Shift для перемещения содержимого"
 
 msgid "COLORPICKER_HT"
 msgstr "Выбор цвета\n"
-"Выбрать цвет из пикселя Sprit'а\n\n"
-"O для ЛКМ\n"
-"Alt + O для ПКМ"
+"Выбрать цвет из пикселя спрайта\n\n"
+"O для левой кнопки мыши\n"
+"Alt + O для правой кнопки мыши"
 
 msgid "Draw Tools"
 msgstr "Инструменты рисования"
 
 msgid "PENCIL_HT"
 msgstr "Карандаш\n\n"
-"P для ЛКМ\n"
-"Alt + P для ПКМ\n\n"
-"Зажать Shift для создания прямой"
+"P для левой кнопки мыши\n"
+"Alt + P для правой кнопки мыши\n\n"
+"Зажать Shift для рисования прямой"
 
 msgid "ERASER_HT"
 msgstr "Ластик\n\n"
-"E для ЛКМ\n"
-"Alt + E для ПКМ\n\n"
-"Зажать Shift для очистки линией"
+"E для левой кнопки мыши\n"
+"Alt + E для правой кнопки мыши\n\n"
+"Зажать Shift для очистки прямой линией"
 
 msgid "BUCKET_HT"
 msgstr "Заливка\n\n"
