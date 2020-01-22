@@ -8,10 +8,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2020-01-22 17:42\n"
+"PO-Revision-Date: 2020-01-22 18:39\n"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "Cancel"
 msgstr "Отмена"
@@ -20,7 +20,7 @@ msgid "Open"
 msgstr "Открыть"
 
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 msgid "Please Confirm..."
 msgstr "Пожалуйста подтвердите..."
@@ -44,10 +44,10 @@ msgid "View"
 msgstr "Просмотр"
 
 msgid "Image"
-msgstr ""
+msgstr "Изображение"
 
 msgid "Effects"
-msgstr ""
+msgstr "Эффекты"
 
 msgid "Help"
 msgstr "Помощь"
@@ -134,31 +134,31 @@ msgid "Save Sprite as .pxo"
 msgstr "Сохранить Sprite как .pxo"
 
 msgid "Export Sprite as .png"
-msgstr ""
+msgstr "Экспортировать спрайт как .png"
 
 msgid "Export Sprite"
 msgstr "Экспортировать Sprite"
 
 msgid "File Exists, Overwrite?"
-msgstr ""
+msgstr "Файл существует, перезаписать?"
 
 msgid "Resize:"
-msgstr ""
+msgstr "Изменить размер:"
 
 msgid "EXPORT_CURRENT_FRAME_LABEL"
-msgstr ""
+msgstr "Экспортировать текущий кадр"
 
 msgid "EXPORT_FRAMES_AS_MULTIPLE_FILES_LABEL"
-msgstr ""
+msgstr "Экспортировать все кадры в отдельные файлы"
 
 msgid "EXPORT_FRAMES_AS_SPRITESHEET_LABEL"
 msgstr ""
 
 msgid "Columns"
-msgstr ""
+msgstr "Столбцы"
 
 msgid "Rows"
-msgstr ""
+msgstr "Строки"
 
 msgid "Path:"
 msgstr "Путь:"
@@ -167,7 +167,7 @@ msgid "Directories & Files:"
 msgstr "Словари и файлы:"
 
 msgid "Create Folder"
-msgstr ""
+msgstr "Создать папку"
 
 msgid "File:"
 msgstr "Файл:"
@@ -188,19 +188,19 @@ msgid "Trilinear"
 msgstr "Трехлинейный"
 
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 msgid "Themes"
-msgstr ""
+msgstr "Темы оформления"
 
 msgid "Guides & Grid"
-msgstr ""
+msgstr "Направляющие и сетка"
 
 msgid "Language options"
-msgstr ""
+msgstr "Настройки языка"
 
 msgid "Theme options"
-msgstr ""
+msgstr "Настройки темы"
 
 msgid "Grid options"
 msgstr "Настройки сетки"
@@ -209,7 +209,7 @@ msgid "Color:"
 msgstr "Цвет:"
 
 msgid "Guide color:"
-msgstr ""
+msgstr "Цвет направляющих:"
 
 msgid "System Language"
 msgstr "Системный язык"
@@ -227,13 +227,13 @@ msgid "Light"
 msgstr ""
 
 msgid "Invert colors"
-msgstr ""
+msgstr "Инвертировать цвета"
 
 msgid "Desaturation"
-msgstr ""
+msgstr "Обесцвечивание"
 
 msgid "Outline"
-msgstr ""
+msgstr "Обводка"
 
 msgid "Diagonal"
 msgstr ""
@@ -242,16 +242,16 @@ msgid "Place inside image"
 msgstr ""
 
 msgid "Thickness:"
-msgstr ""
+msgstr "Толщина:"
 
 msgid "View Splash Screen"
-msgstr ""
+msgstr "Экран приветствия"
 
 msgid "Issue Tracker"
-msgstr ""
+msgstr "Баг-трекер"
 
 msgid "Changelog"
-msgstr ""
+msgstr "Список изменений"
 
 msgid "About Pixelorama"
 msgstr "О Pixeloram'е"
@@ -266,7 +266,7 @@ msgid "Donate"
 msgstr "Поддержать"
 
 msgid "Developers"
-msgstr ""
+msgstr "Разработчики"
 
 msgid "Contributors"
 msgstr ""
@@ -275,19 +275,19 @@ msgid "Donors"
 msgstr ""
 
 msgid "Translators"
-msgstr ""
+msgstr "Переводчики"
 
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 msgid "Greek"
-msgstr ""
+msgstr "Греческий"
 
 msgid "French"
-msgstr ""
+msgstr "Французский"
 
 msgid "German"
-msgstr ""
+msgstr "Немецкий"
 
 msgid "Polish"
 msgstr ""
