@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2020-01-23 22:59\n"
+"PO-Revision-Date: 2020-01-23 23:08\n"
 
 msgid "OK"
 msgstr ""
@@ -90,6 +90,9 @@ msgstr "Redimensionner l'image"
 
 msgid "Crop Image"
 msgstr "Rogner l'image"
+
+msgid "Rotate Image"
+msgstr ""
 
 msgid "Clear Selection"
 msgstr "Ne rien sélectionner"
@@ -272,6 +275,39 @@ msgid "Contributors"
 msgstr ""
 
 msgid "Donors"
+msgstr ""
+
+msgid "Translators"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "Greek"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "Brazilian Portuguese"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "Chinese Traditional"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Spanish"
 msgstr ""
 
 msgid "Development Team"
