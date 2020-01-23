@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2020-01-23 23:08\n"
+"PO-Revision-Date: 2020-01-23 23:18\n"
 
 msgid "OK"
 msgstr "OK"
@@ -278,37 +278,37 @@ msgid "Donors"
 msgstr "捐款人"
 
 msgid "Translators"
-msgstr ""
+msgstr "翻譯人員"
 
 msgid "English"
-msgstr ""
+msgstr "英文"
 
 msgid "Greek"
-msgstr ""
+msgstr "希臘文"
 
 msgid "French"
-msgstr ""
+msgstr "法文"
 
 msgid "German"
-msgstr ""
+msgstr "德文"
 
 msgid "Polish"
-msgstr ""
+msgstr "波蘭文"
 
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "巴西葡萄牙文"
 
 msgid "Russian"
-msgstr ""
+msgstr "俄文"
 
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "繁體中文"
 
 msgid "Italian"
-msgstr ""
+msgstr "義大利文"
 
 msgid "Spanish"
-msgstr ""
+msgstr "西班牙文"
 
 msgid "Development Team"
 msgstr "開發團隊"
