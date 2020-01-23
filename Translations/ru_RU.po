@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2020-01-23 23:08\n"
+"PO-Revision-Date: 2020-01-23 23:18\n"
 
 msgid "OK"
 msgstr "OK"
@@ -278,37 +278,37 @@ msgid "Donors"
 msgstr ""
 
 msgid "Translators"
-msgstr ""
+msgstr "Переводчики"
 
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 msgid "Greek"
-msgstr ""
+msgstr "Греческий"
 
 msgid "French"
-msgstr ""
+msgstr "Французский"
 
 msgid "German"
-msgstr ""
+msgstr "Немецкий"
 
 msgid "Polish"
-msgstr ""
+msgstr "Польский"
 
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Бразильский португальский"
 
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Китайский (Традиционный)"
 
 msgid "Italian"
-msgstr ""
+msgstr "Итальянский"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Испанский"
 
 msgid "Development Team"
 msgstr "Команда разработчиков"
