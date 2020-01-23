@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2020-01-22 17:42\n"
+"PO-Revision-Date: 2020-01-23 22:59\n"
 
 msgid "OK"
 msgstr "OK"
@@ -273,39 +273,6 @@ msgstr "Contribuidores"
 
 msgid "Donors"
 msgstr "Doadores"
-
-msgid "Translators"
-msgstr ""
-
-msgid "English"
-msgstr ""
-
-msgid "Greek"
-msgstr ""
-
-msgid "French"
-msgstr ""
-
-msgid "German"
-msgstr ""
-
-msgid "Polish"
-msgstr ""
-
-msgid "Brazilian Portuguese"
-msgstr ""
-
-msgid "Russian"
-msgstr ""
-
-msgid "Chinese Traditional"
-msgstr ""
-
-msgid "Italian"
-msgstr ""
-
-msgid "Spanish"
-msgstr ""
 
 msgid "Development Team"
 msgstr "Time de Desenvolvimento"
