@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2020-01-23 23:08\n"
+"PO-Revision-Date: 2020-01-23 23:18\n"
 
 msgid "OK"
 msgstr "Εντάξει"
@@ -92,7 +92,7 @@ msgid "Crop Image"
 msgstr "Περικοπή"
 
 msgid "Rotate Image"
-msgstr ""
+msgstr "Περιστροφή Εικόνας"
 
 msgid "Clear Selection"
 msgstr "Καθαρισμός επιλογής"
@@ -278,37 +278,37 @@ msgid "Donors"
 msgstr "Δωρητές"
 
 msgid "Translators"
-msgstr ""
+msgstr "Μεταφραστές"
 
 msgid "English"
-msgstr ""
+msgstr "Αγγλικά"
 
 msgid "Greek"
-msgstr ""
+msgstr "Ελληνικά"
 
 msgid "French"
-msgstr ""
+msgstr "Γαλλικά"
 
 msgid "German"
-msgstr ""
+msgstr "Γερμανικά"
 
 msgid "Polish"
-msgstr ""
+msgstr "Πολωνικά"
 
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Πορτογαλικά Βραζιλίας"
 
 msgid "Russian"
-msgstr ""
+msgstr "Ρωσικά"
 
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Κινεζικά Παραδοσιακά"
 
 msgid "Italian"
-msgstr ""
+msgstr "Ιταλικά"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Ισπανικά"
 
 msgid "Development Team"
 msgstr "Ομάδα Ανάπτυξης"
@@ -704,7 +704,7 @@ msgid "Edit Palette"
 msgstr "Επεξεργασία Παλέτας"
 
 msgid "Patrons:"
-msgstr ""
+msgstr "Patrons:"
 
 msgid "Changes"
 msgstr "Αλλαγές"
